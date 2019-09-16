@@ -1,0 +1,17 @@
+img.float {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    clear: both;
+}
+img.ani {
+    position: relative;
+    transform: translateY(-100px) scale(.95);
+    opacity: 0;
+    transition: .2s all;
+}
+img.ani.active {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+    transition: .2s all;
+}
